@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+   <category>
+    <pattern>How many people live in * ^</pattern>
+    <template>
+         <think><set name = "state"><star/></set></think>
+         <condition name = "state" value = "Cardiff">The population of Cardiff is over 360000</condition>
+         <condition name = "state" value = "Bristol">The population of Bristol is over 450000</condition>
+         <condition name = "state" value = "Keynsham">I do not know what the population of Keynsham is</condition>
+         <condition name = "state" value = "space">I do not know what the population of space is</condition>
+    </template>  
+    </category>  
+   
+   <category>
+    <pattern>Why not</pattern>
+    <that>I do not know what the population of space is</that>
+      <template>
+        Because it is too hard to count the residents of space
+      </template>  
+   </category> 
+   
+       <category>
+           <pattern>Why not</pattern>
+           <template>I do not have an answer for that</template>
+       </category>
+   
+ 
+   <category>
+       <pattern>*</pattern>
+       <template>I do not have an answer for that</template>
+   </category>
+   
+    
+   <category>
+    <pattern>Why not</pattern>
+    <that>I do not know what the population of Keynsham is</that>
+      <template>
+        Because it is too hard to count the residents of Keynsham
+      </template>  
+   </category> 
+
+
+  <category>
+  <pattern>Where is Keynsham</pattern>
+   <template>
+    I do not know where Keynsham is
+   </template>
+  </category>
+   
+   <category>
+    <pattern>Why not</pattern>
+          <that>I do not know where Keynsham is</that>
+          <template>
+        Because I do not have a category to connect me to a mapping service 
+      </template>  
+   </category>
+   
+	<category>
+	    <pattern> * London ^ </pattern>
+	    <template>
+	        <think> <set name = "london"><star/></set></think>
+	        <condition name = "london" value = "Where is">Somewhere east of Bristol</condition>
+          <condition name = "london" value = "Whereabouts is" >Somewhere east of Bristol</condition>
+          <condition name = "london" value = "What is the population of" >The population of London is about 8.7 million</condition>
+          <condition name = "london" value = "What is">London is a city.</condition>
+          <condition name = "london" value = "Tell me where">Somewhere east of Bristol</condition>
+          <condition name = "london" value = "Please please tell me where">Somewhere east of Bristol</condition>
+      </template>
+  </category>
+ 
+  
+        <category>
+            <pattern>Where is it</pattern>
+            <that>London is a city</that>
+            <template>Somewhere east of Bristol</template>
+        </category>
+        
+     <category>
+         <pattern> * Bristol ^</pattern>
+         <template>
+             <think> <set name = "bristol"><star/></set></think>
+             <condition name = "bristol" value = "Where is">In the South-West of England</condition>
+             <condition name = "bristol" value = "Whereabouts is">In the South-West of England</condition>
+             <condition name = "bristol" value = "Tell me where">In the South-West of England</condition>
+             <condition name = "bristol" value = "What is the population of">The population of Bristol is over 450000</condition>
+             <condition name = "bristol" value = "What is">Bristol is a city.</condition>
+         </template>
+     </category> 
+          
+          <category>
+              <pattern>Where is it</pattern>
+              <that>Bristol is a city</that>
+              <template>In the South-West of England</template>
+          </category> 
+   
+        <category>
+       <pattern>Is Cardiff in Bristol</pattern>
+       <template>I do not have an answer for that</template>
+       </category>
+   
+              
+   <category>
+       <pattern> * Cardiff ^</pattern>
+       <template>
+           <think> <set name = "cardiff"><star/></set></think>
+           <condition name ="cardiff" value ="Where is">In Wales</condition>
+           <condition name ="cardiff" value ="Whereabouts is">In Wales</condition>
+           <condition name ="cardiff" value ="Tell me where">In Wales</condition>
+           <condition name ="cardiff" value ="Please tell me where">In Wales</condition>
+           <condition name ="cardiff" value ="What is the population of">The population of Cardiff is over 360000</condition>
+           <condition name ="cardiff" value ="How many people live in">The population of Cardiff is over 360000</condition>
+       </template>
+   </category>
+  
+      <category>
+           <pattern>* UWE ^</pattern>
+           <template>
+               <think><set name = "uwe"><star/></set></think>
+               <condition name ="uwe" value ="Where is">In north Bristol</condition>
+               <condition name ="uwe" value ="Tell me where">In north Bristol</condition>
+               <condition name ="uwe" value ="Bot where is">In north Bristol</condition>
+               <condition name ="uwe" value ="What is">I do not have an answer for that</condition>
+           </template>
+      </category>   
+          
+      <category>
+          <pattern>* beauty ^</pattern>
+          <template>
+              <think><set name = "beauty"><star/></set></think>
+              <condition name ="beauty" value ="Where is">In the eye of the beholder</condition>
+              <condition name ="beauty" value ="Whereabouts is">In the eye of the beholder</condition>
+              <condition name ="beauty" value ="Tell me where">In the eye of the beholder</condition>
+              <condition name ="beauty" value ="What is">A subjective judgment evoked by an emotional response</condition>
+          </template>
+      </category>
+      </aiml>
+      

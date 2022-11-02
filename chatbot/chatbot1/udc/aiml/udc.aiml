@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+
+<category>
+    <pattern>Where is Bristol</pattern>
+    <template>In the South-West of England</template>
+</category>
+
+
+<category><pattern>Whereabouts is Bristol</pattern><template><srai>WHERE IS BRISTOL</srai></template></category>
+<category><pattern>Tell me where Bristol is</pattern><template><srai>WHERE IS BRISTOL</srai></template></category>
+<category><pattern>Where is Bristol please</pattern><template><srai>WHERE IS BRISTOL</srai></template></category>
+<category><pattern>Where is Bristol Bot</pattern><template><srai>WHERE IS BRISTOL</srai></template></category>
+<category><pattern>Where is Bristol please Bot</pattern><template><srai>WHERE IS BRISTOL</srai></template></category>
+<category><pattern>Where is it</pattern><template><srai>WHERE IS BRISTOL</srai></template></category>
+
+<category>
+    <pattern>Where is London</pattern>
+    <template>Somewhere east of Bristol</template>
+</category>
+
+<category><pattern>Whereabouts is London</pattern><template><srai>WHERE IS LONDON</srai></template></category>
+<category><pattern>Tell me where London is please</pattern><template><srai>WHERE IS LONDON</srai></template></category>
+<category><pattern>Tell me where London is please Bot</pattern><template><srai>WHERE IS LONDON</srai></template></category>
+<category><pattern>Please Please tell me where london is</pattern><template><srai>WHERE IS LONDON</srai></template></category>
+<category><pattern>Where is it</pattern><template><srai>WHERE IS LONDON</srai></template></category>
+
+<category>
+    <pattern>Where is Cardiff</pattern>
+    <template>In Wales</template>
+</category>
+
+<category><pattern>Whereabouts is Cardiff</pattern><template><srai>WHERE IS CARDIFF</srai></template></category>
+<category><pattern>Tell me where Cardiff is</pattern><template><srai>WHERE IS CARDIFF</srai></template></category>
+<category><pattern>Whereabouts is Cardiff Bot</pattern><template><srai>WHERE IS CARDIFF</srai></template></category>
+<category><pattern>Whereabouts is Cardiff please Bot</pattern><template><srai>WHERE IS CARDIFF</srai></template></category>
+<category><pattern>Please tell me where Cardiff is Bot</pattern><template><srai>WHERE IS CARDIFF</srai></template></category>
+
+<category>
+    <pattern>Where is UWE</pattern>
+    <template>In north Bristol</template>
+</category>
+
+<category><pattern>Tell me where UWE is</pattern><template><srai>WHERE IS UWE</srai></template></category>
+<category><pattern>Where is UWE please</pattern><template><srai>WHERE IS UWE</srai></template></category>
+<category><pattern>Where is UWE Bot</pattern><template><srai>WHERE IS UWE</srai></template></category>
+<category><pattern>Where is UWE please Bot</pattern><template><srai>WHERE IS UWE</srai></template></category>
+<category><pattern>Bot where is UWE please</pattern><template><srai>WHERE IS UWE</srai></template></category>
+
+<category>
+    <pattern>Where is  beauty</pattern>
+    <template>In the eye of the beholder</template>
+</category>
+
+<category><pattern>Whereabouts is beauty</pattern><template><srai>WHERE IS  BEAUTY</srai></template></category>
+<category><pattern>Tell me where beauty is</pattern><template><srai>WHERE IS  BEAUTY</srai></template></category>
+<category><pattern>Whereabouts is beauty please</pattern><template><srai>WHERE IS  BEAUTY</srai></template></category>
+<category><pattern>Whereabouts is beauty Bot</pattern><template><srai>WHERE IS  BEAUTY</srai></template></category>
+<category><pattern>Whereabouts is  beauty please Bot</pattern><template><srai>WHERE IS  BEAUTY</srai></template></category>
+
+
+<category><pattern>What is beauty</pattern><template>A subjective judgment evoked by an emotional response</template></category>
+
+<category>
+    <pattern>Why not</pattern>
+    <template>I do not have an answer for that</template>
+</category>
+
+<category>
+      <pattern>Where is Keynsham</pattern>
+      <template>I do not know where Keynsham is</template>  
+   </category>
+   
+   <category>
+      <pattern>Why not</pattern>
+      <that>I do not know where Keynsham is</that>
+      <template>Because I do not have a category to connect me to a mapping service</template>
+   </category>
+   
+   
+   
+   
+   <category>
+      <pattern>Where is Bot</pattern>
+      <template>I do not have an answer for that</template>  
+   </category>
+   
+   <category>
+      <pattern>Bot please</pattern>
+      <that>I do not have an answer for that</that>
+      <template>I do not have an answer for that</template>
+   </category>
+   
+   <category>
+       <pattern>Is Cardiff in Bristol</pattern>
+       <that>I do not have an answer for that</that>
+       <template>I do not have an answer for that</template>
+   </category>
+   
+   <category>
+       <pattern>What is Bristol</pattern>
+       <that>I do not have an answer for that</that>
+       <template>Bristol is a city.</template>
+   </category>
+
+   <category>
+       <pattern>Where is it</pattern>
+       <that>Bristol is a city</that>
+       <template>In the South-West of England</template>
+       
+   </category>
+
+
+<category>
+      <pattern>What is London</pattern>
+      <template>London is a city.</template>  
+   </category>
+   
+   <category>
+      <pattern>Where is it</pattern>
+      <that>London is a city</that>
+      <template>Somewhere east of Bristol</template>
+   </category>
+   
+   <category>
+       <pattern>What is the population of Bristol</pattern>
+       <that>Somewhere east of Bristol</that>
+       <template>The population of Bristol is over 450000</template>
+   </category>
+   
+   
+<category>
+      <pattern>What is UWE</pattern>
+      <template>I do not have an answer for that</template>  
+   </category>
+
+
+<category>
+      <pattern>How many people live in Keynsham</pattern>
+      <template>I do not know what the population of Keynsham is</template>  
+   </category>
+   
+   <category>
+      <pattern>Why not</pattern>
+      <that>I do not know what the population of Keynsham is</that>
+      <template>Because it is too hard to count the residents of Keynsham</template>
+   </category>
+   
+   <category>
+       <pattern>How many people live in space</pattern>
+       <that>Because it is too hard to count the residents of Keynsham</that>
+       <template>I do not know what the population of space is</template>
+   </category>
+   
+   <category>
+      <pattern>Why not</pattern>
+      <that>I do not know what the population of space is</that>
+      <template>Because it is too hard to count the residents of space</template>
+   </category>
+
+
+
+<category>
+    <pattern>How many people live in Bristol</pattern>
+    <template>The population of Bristol is over 450000</template>
+</category>
+
+<category>
+    <pattern>What is the population of London</pattern>
+    <template>The population of London is about 8.7 million</template>
+</category>
+
+
+
+
+<category>
+    <pattern>What is the population of Cardiff</pattern>
+    <template>The population of Cardiff is over 360000</template>
+</category>
+
+<category><pattern>How many people live in Cardiff</pattern><template><srai>WHAT IS THE POPULATION OF CARDIFF</srai></template></category>
+
+</aiml>
